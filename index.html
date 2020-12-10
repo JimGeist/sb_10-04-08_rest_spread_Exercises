@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Unit 10.04.08 - rest / spread Exercises</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.js"></script>
+
+  <script type="text/javascript" src="helper.js"></script>
+  <script type="text/javascript" src="10-04-08_rest_spread_Exercises.js"></script>
+  <script type="text/javascript" src="10-04-08_rest_spread_Exercises-test.js"></script>
+</head>
+
+<body>
+  <h1>10.04.08 - rest / spread ( or ... / ... ) Exercises</h1>
+  <p>Please refer to the JavaScript file to see how spread and rest were used in the functions.</p>
+  <p>For <strong>mergeObjects(obj1, obj2)</strong>, it is coded so any key/value pair in obj1 is REPLACED by the
+    key/value pair found in obj2. They are not combined, key/values that exist in both obj1 and obj2 are always
+    REPLACED by key/values in obj2.</p>
+  <p><strong>mergeCombineObjects(obj1, obj2)</strong> is a new, unrequested function that came of the replace that
+    occurs in mergeObject. . . and it was also the code initially written for mergeObjects before realizing how to
+    use spread with an object. With mergeCombineObjects, obj2 is merged into obj1 BUT if the key already exists,
+    the value from obj2 is combined -- numbers are added together, strings are concatenated and really did not
+    code for many what-if scenarios. </p>
+  <p>For <strong>update(obj, key, val)</strong>, the interpretation of 'update' means to update / change a
+    value that <u>exists</u> and it was coded to ensure the value change only occurs when the key exists.</p>
+
+</body>
+
+</html>
